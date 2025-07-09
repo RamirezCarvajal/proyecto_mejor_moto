@@ -1,0 +1,142 @@
+/* Fuente y estilo general */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:url(imagen/moto5.webp) no-repeat center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+/* Encabezado */
+header {
+    background-color: #98B6E3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+nav li {
+    margin: 0 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 0 10px;
+}
+
+nav a:hover {
+    padding: 5px; 
+    color: #080808;
+    transform: scale(1.05);
+    background-color: #5f9aee;
+    
+}
+
+/* Secciones */
+main section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+main p {
+    background-color: #c7d8f0;
+}
+
+section h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #98B6E3;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #a8c2e4;
+}
+
+/* Flexbox para servicios */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    
+    background-color: #e0e9f8;
+    color: #333;
+    padding: 20px;
+    border-radius:10%;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.item:hover {
+    
+    transform: scale(1.05);
+    background-color: #cdddf4;
+    box-shadow:  0 8px 8px 8px rgba(246, 246, 247, 0.5);
+    color: brown;
+}
+
+/* Imágenes */
+#imagenes img {
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:  0 8px 8px 8px rgba(246, 246, 247, 0.5);
+    transition: transform 0.3s;
+    
+    
+}
+
+#imagenes img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #98B6E3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+    list-style: none;
+}
